@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/boot">
-    <title>Document</title>
+    <title>Evaluation</title>
 </head>
 <body>
-    
+    <section class="heure">
+        <form id='formHeure'>
+            <label for="heure">heures : </label>
+            <input id='heure' type="number" placeholder="tappez l'heure">
+            <label for="heure">minutes : </label>
+            <input id='minutes' type="number"placeholder="tappez la minute">
+            <label for="heure">secondes : </label>
+            <input id='secondes' type="number" placeholder="tappez la seconde">
+            <button>valider</button>
+        </form>
+        <div id="valider"></div>
+    </section>
+
+
+
+    <script src="script.js"></script>
 </body>
-<script src="vendor/components/jquery/jquery.min.js"></script>
-<script src="vendor/twbs/bootstrap//dist/js/bootstrap.min.js"></script>
 </html>
+
